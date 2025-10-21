@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+gap{
+    gap: 5px !important;
+}
+body {
+    background-color: aqua;
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form {
+    background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+.row input {
+    width: 40%;
+}
+.column input {
+    width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+form > :nth-child(1) {
+  height: 150px;
+  padding-top: 50px;
+}
