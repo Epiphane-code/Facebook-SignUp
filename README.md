@@ -8,6 +8,8 @@ Adaptation de la page pour différents supports (ordinateurs, tablettes, mobiles
 Ajout d'informations légales et de liens vers les conditions d'utilisation, la politique de confidentialité et la politique de cookies.
 Ce projet permet de s'entraîner à l'intégration web et de se familiariser avec la création de formulaires complexes et accessibles.
 
+### lien de la page github-page : [Cliquez ici](https://epiphane-code.github.io/Facebook-SignUp/)
+
 # Objectifs
  ["Reproduire une interface réaliste","Maîtriser HTML & CSS","Travailler l’accessibilité","Comprendre la logique des formulaires","Adapter le design au responsive","Développer l’attention au détail","Préparer à l’intégration front-end"]
 
