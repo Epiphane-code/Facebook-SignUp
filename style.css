@@ -109,5 +109,9 @@ hr{
   form {
     min-height: 95vh;
   }
+  .s5 label{
+    width: 50%;
+  }
+
   
 }
