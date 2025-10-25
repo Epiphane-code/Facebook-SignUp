@@ -16,7 +16,7 @@ Ce projet permet de s'entraîner à l'intégration web et de se familiariser ave
 
 # L'appercue des images :
 ## petit ecran:
-![](face2.png)
+![](img/face2.png)
 
 # grand ecran :
-![](face1.png)
+![](img/face1.png)
