@@ -13,11 +13,12 @@ a:hover{
 
 body {
   display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
   justify-content: center;
+  align-items: center;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   background-color: #e9ebee;
-  min-width: 100vw;
-  min-height: auto;
   color: #1c1e21;
 }
 form {
@@ -25,12 +26,11 @@ form {
   background-color: white;
   flex-direction: column;
   align-items: start;
-  margin-top: 50px;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.08);
+  box-shadow: rgba(0, 0, 0, 1);
   padding: 40px 20px;
-  max-width: 550px;
-  max-height: auto;
+  max-width: 700px;
+  min-height: 1000px;
   gap: 10px;
 }
 label{
@@ -47,6 +47,9 @@ label{
   width: 100%;
   padding: 0 20px 0 20px;
   gap: 10px;
+}
+.s1 p{
+  margin-bottom: 20px;
 }
 
 .s1{
@@ -76,6 +79,7 @@ label{
 input, select{
   padding-left: 10px;
   border: solid 1px #e9ebee;
+  color: fieldtext;
 }
 input:focus, select:focus{
   outline-color:  #1c1e21;
@@ -99,6 +103,12 @@ button{
 hr{
   border: 1px solid #e9ebee;
 }
+.s6 .abdel {
+  text-align:justify;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width:768px) {
   .s2{
     grid-template-columns: 1fr;
